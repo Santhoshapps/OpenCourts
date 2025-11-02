@@ -9,7 +9,7 @@ import { User as UserEntity } from "@/api/entities";
 import "leaflet/dist/leaflet.css";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuSeparator } from "@/components/ui/dropdown-menu";
 import { MunicipalityAdmin } from "@/api/entities";
-import ErrorBoundary from "./components/ErrorBoundary";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 const navigationItems = [
   {
