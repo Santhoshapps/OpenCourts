@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { User } from "@/api/entities";
 import { ChatMessage, Player } from "@/api/entities";
-import { agentSDK } from "@/agents";
+import { agentSDK } from "../agents";
 import { Send, Bot, User as UserIcon, Crown } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 
