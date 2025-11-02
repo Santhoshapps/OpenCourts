@@ -22,7 +22,7 @@ import Town from "./Town";
 
 import TownAnalytics from "./TownAnalytics";
 
-import oauth-callback from "./oauth-callback";
+import OAuthCallback  from "./oauth-callback";
 
 import PaymentSuccess from "./PaymentSuccess";
 
@@ -88,7 +88,7 @@ const PAGES = {
     
     TownAnalytics: TownAnalytics,
     
-    oauth-callback: oauth-callback,
+    OAuthCallback: oauth-callback,
     
     PaymentSuccess: PaymentSuccess,
     
@@ -177,7 +177,7 @@ function PagesContent() {
                 
                 <Route path="/TownAnalytics" element={<TownAnalytics />} />
                 
-                <Route path="/oauth-callback" element={<oauth-callback />} />
+                <Route path="/oauth-callback" element={<OAuthCallback />} />
                 
                 <Route path="/PaymentSuccess" element={<PaymentSuccess />} />
                 
